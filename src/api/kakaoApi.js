@@ -2,8 +2,8 @@ import axios from "axios";
 
 import { API_SERVER_HOST } from "./todoApi";
 
-const rest_api_key = `5b6018eee53ef66d455dc6779934a75e`; //REST키값
-const client_secret = `7z02x4MziT2LfZpOYk3YfilVAXwcKaUG`;
+const rest_api_key = ``; //REST키값
+const client_secret = ``;
 const redirect_uri = `http://localhost:3000/member/kakao`;
 const auth_code_path = `https://kauth.kakao.com/oauth/authorize`;
 
